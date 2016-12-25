@@ -1,20 +1,20 @@
 package abilities;
 
+import java.util.ArrayList;
+
+import utils.utility.AbilityTypes;
+import utils.utility.Classes;
+
 public class ability {
 
-	
-	//name
-	
-	//class(s)	
-	
-		//these should be typed, ex; MAGE, PRIEST. ETC
-	
-	//cost
-	
-	//cool down
-	
-	//range (latter)
-	//icon
-	
+	String name;
+	ArrayList<Classes> restrictions;
+	ArrayList<AbilityTypes> tags;
+	int baseCost;
+	int baseCooldown;
+	double power;
+	//TODO
+	//RANGE (10m)
+	//ICON
 	
 }
